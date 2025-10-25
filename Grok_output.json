@@ -1,0 +1,9 @@
+
+{
+    "recipe_name":"Spinach and Paneer Curry",
+    "ingredients":["paneer","spinach","onion","garlic","ginger","cumin powder","coriander powder","turmeric powder","red chili powder","garam masala","salt","oil","lemon juice"],
+    "steps":["Heat oil in a pan and add cumin seeds.","Add onion and sauté until it's translucent.","Add ginger and garlic and sauté for a minute.","Add cumin powder, coriander powder, turmeric powder, red chili powder, and garam masala. Mix well.","Add chopped spinach and cook until it's wilted.","Add paneer and cook until it's heated through.","Add lemon juice and salt. Mix well.","Garnish with fresh cilantro and serve hot."],
+    "cooking_time":"20 minutes",
+    "difficulty_level":"Moderate",
+    "nutrition_facts":{"Calories":"250","Carbohydrates":"15g","Fat":"15g","Fiber":"5g","Protein":"20g","Servings":"4"}
+}

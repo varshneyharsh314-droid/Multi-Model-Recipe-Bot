@@ -1,0 +1,10 @@
+# Core packages
+streamlit
+python-dotenv
+pydantic
+
+# LangChain packages
+langchain
+langchain-core
+langchain-google-genai
+langchain-groq
