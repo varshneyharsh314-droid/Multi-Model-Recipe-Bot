@@ -1,10 +1,6 @@
 from langchain_groq import ChatGroq
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
-from langchain_huggingface import HuggingFaceEndpoint
 from langchain_core.messages import SystemMessage,HumanMessage,AIMessage
-from langchain_core.prompts import PromptTemplate
-from typing import TypedDict, Annotated, Optional, Literal
 from pydantic import BaseModel, Field
 import streamlit as st
 import time
@@ -32,11 +28,6 @@ model1 = ChatGoogleGenerativeAI(model='gemini-2.5-pro')
 
 model2 = ChatGroq(
     model="llama-3.1-8b-instant"
-)
-
-prompt1 = PromptTemplate(
-    template='Give me the {topic}',
-    input_variables=['topic']
 )
 
 class Review(BaseModel):
@@ -87,4 +78,5 @@ if compare_button and user_input:
 
     st.subheader(" Groq Output")
     st.json(result_groq)
+
     st.write(f"Time: {time_groq:.2f} sec")
